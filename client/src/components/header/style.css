@@ -1,0 +1,26 @@
+.logo {
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+
+.navTabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+  
+.navTabs .title {
+cursor: pointer;
+transition: color 0.3s ease-in-out;
+}
+
+.navTabs .title:hover {
+color: #2378e0;
+}
+
+.navTabs .title:active {
+color: #165bb4;
+}
+  

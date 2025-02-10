@@ -1,0 +1,27 @@
+.multi-day-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.day-box {
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+    user-select: none;
+}
+
+
+/* Selected state */
+.day-box.selected {
+    background-color: #007bff; /* Blue when selected */
+    color: white;
+    border-color: #0056b3;
+}

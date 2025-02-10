@@ -1,0 +1,79 @@
+.workoutplans{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        padding: 10px;
+      }
+
+.workoutpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px; 
+  max-width: 90%;
+  max-height: 80vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; 
+}
+
+.modal h2 {
+  font-size: 22px;
+}
+
+.modal input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between elements */
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.modal-buttons button {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  background: #1C5DAF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+.modal-buttons button:hover {
+  background: #0f3a6d;
+}

@@ -1,0 +1,25 @@
+.signupPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupForm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 -2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 1rem; */
+    width: 500px;
+    height: 550px;
+    padding: 1.3rem;
+}
+
+.logRed{
+    color: #2788ff;
+    cursor: pointer;
+}
